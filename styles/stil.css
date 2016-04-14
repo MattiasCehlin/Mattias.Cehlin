@@ -1,0 +1,40 @@
+div {
+	border: 3px solid black;
+}
+header img {
+	width: 100px; height: 100px;
+}
+header nav {
+	margin-top: 80px;
+}
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	display: inline; 
+	background-color: #; 
+}
+header nav ul li a {
+	
+}
+
+
+
+
+ul.breadcrumb {
+	padding: 2px 4px;
+	background-color: #eee;
+	list-style: none;
+}
+ul.breadcrumb li{
+	display: inline;
+}
+ul.breadcrumb li+li:before{
+	color: black;
+	content: "/\";
+}
+.float {
+	float: right;
+}
